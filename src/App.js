@@ -1,0 +1,20 @@
+import { Component } from 'react';
+import './App.css';
+import Pokecard from './pokecard';
+
+class App extends Component {
+  render () {
+    return (
+     <div className="App">
+        <Pokecard
+         id={4}
+         name = "Charmander"
+         type="fire"
+         exp={62}
+          />
+     </div>
+    );
+  }
+}
+
+export default App;
